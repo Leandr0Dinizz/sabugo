@@ -1,0 +1,3 @@
+C:\Users\leandro.dmenezes\source\repos\TESTES\TESTES\obj\Debug\TESTES.csproj.AssemblyReference.cache
+C:\Users\leandro.dmenezes\source\repos\TESTES\TESTES\obj\Debug\TESTES.csproj.SuggestedBindingRedirects.cache
+C:\Users\leandro.dmenezes\source\repos\TESTES\TESTES\obj\Debug\TESTES.csproj.CoreCompileInputs.cache
