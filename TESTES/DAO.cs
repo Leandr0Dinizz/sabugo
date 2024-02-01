@@ -14,6 +14,11 @@ namespace TESTES
     {
 
         public MySqlConnection conexao;// conectar ao banco de dados
+        public string dados;
+        public string sql;
+        public string[] login;
+        public string[] senha;
+
 
 
         public DAO()
@@ -36,5 +41,16 @@ namespace TESTES
     }// fim do método
 
 
+    //Método inserir
+
+    public void inserir(string login, string senha);
+    {
+
+        try
+        {
+
+
+
+    }
 
 }//fim do projeto
