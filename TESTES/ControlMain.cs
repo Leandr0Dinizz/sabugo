@@ -22,19 +22,33 @@ namespace TESTES
 
             do
             {
-                Menu();//Mostrar as opções para o usuario
-                switch (ConsultarOpcao)
+                usuario.Menu();//Mostrar as opções para o usuario
+                switch (usuario.ConsultarOpcao)
                 {
 
                     case 1:
-                        Cadastrar();
+                        usuario.CadastrarUsuario();
+                        break;
+                    case 2:
+                        if (usuario.Logar() == true)
+                        {
+                            Console.WriteLine("Logado com sucesso!");
 
-
-
-
+                        }
+                        else
+                        {
+                            Console.WriteLine("Login e/ou senha não são válidos!");
+                        }
+                        break;
+                    case 3:
+                        Console.WriteLine("Obrigado!");
+                        break;
+                    default:
+                        Console.WriteLine("Informe um código de acordo com o menu");
+                        break;
                 }
 
-            } while 
+            } while (usuario.ConsultarOpcao != 3);
 
         }//fim do método
 

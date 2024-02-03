@@ -12,8 +12,8 @@ namespace TESTES
         {
 
 
-            ControlUsuario pessoa = new ControlUsuario();//Conectando a control e a model
-            usuario.operacao();
+            ControlMain main = new ControlMain();//Conectando a control e a model
+            main.operacao();
             Console.ReadLine();//Manter o Prompt aberto
 
 
